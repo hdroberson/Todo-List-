@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(50, 52, 87);
+    background-image: url(./image/bgImage.jpg);
+    min-height: 200vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    background-color: rgba(50, 52, 87, 0.5);
+    background-size: cover;
+    min-height: 200vh;
+    min-width: 100vw;
+    position: absolute;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+input {
+    min-width: 45vw;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+#btnSearch {
+    float: right;
+    border-radius: 0;
+}
+
+ul {
+    list-style: none;
+    margin-top: 2rem;
+    border-top: 2px solid lightcoral;
+}
+
+li {
+    border-bottom: 1px solid white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn-done {
+    background-color: lightgreen;
+    color: coral;
+    border: none;
+    float: right;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.btn-remove {
+    background-color: lightcoral;
+    color:  whitesmoke;
+    border: none;
+    float: right;
+    height: 40px;
+    width: 40px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.btn-clear {
+    background-color: lightgreen;
+    color: coral;
+    border: none;
+    padding: 10px;
+}
+
